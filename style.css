@@ -1,0 +1,43 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url("images/columbus_downtown.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: snow;
+    text-shadow: 0 0 1px black;
+    border: 1px solid black;
+}
+
+.hero__title {
+    font-size: 50px;
+}
+
+.attractions__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.attraction-card__image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.guide-card {
+    display: flex;
+    justify-content: center;
+}
+
+.guide-card__image {
+    height: 300px;
+}
