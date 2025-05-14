@@ -60,6 +60,8 @@ html {
 .attractions__list {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
 }
 
 .attraction-card__image {
@@ -71,22 +73,46 @@ html {
 
 .guide {
     margin-top: 50px;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
 }
 
 .guide-card {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--color-three);
-    border: 3px solid var(--color-four);
-    width: 500px;
-    height: 300px;
+    border: 3px solid var(--color-one);
+    width: 800px;
+    height: 400px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--color-one);
+}
+
+.guide-card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .guide-card__image {
-    height: 250px;
+    height: 350px;
     border-radius: 15px;
+    border: 3px solid var(--color-one);
+}
+
+.guide-card-information__title {
+    font-size: 2.5rem;
+}
+
+.guide-card-information__description {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.guide-card-information__name {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
