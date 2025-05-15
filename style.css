@@ -30,9 +30,9 @@ html {
 }
 
 .hero__title {
-    font-size: 3rem;
+    font-size: 4rem;
     background-color: var(--color-two);
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     padding: 10px 20px;
     border-radius: 15px;
@@ -40,12 +40,12 @@ html {
 }
 
 .hero__subtitle {
-    font-size: 1.5rem;
-    background-color: var(--color-three);
-    width: 200px;
+    font-size: 2.5rem;
+    background-color: var(--color-one);
+    width: 250px;
     margin: 15px auto;
     padding: 2px 7px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 1px black;
 }
 
@@ -54,6 +54,7 @@ html {
 }
 
 .attractions__header {
+    margin-top: 200px;
     font-size: 2rem;
 }
 
@@ -69,6 +70,11 @@ html {
     height: 300px;
     border-radius: 50%;
     border: 3px solid var(--color-two);
+}
+
+.attraction-card__image:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .guide {
